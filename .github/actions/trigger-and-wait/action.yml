@@ -76,8 +76,8 @@ runs:
       - name: "add missing dependencies"
         shell: sh
         run: |
-          apt update -y
-          apt --no-cache add curl jq coreutils
+          sudo apt update -y
+          sudo apt --no-cache add curl jq coreutils
 
       - name: "give execution permission to script"
         shell: sh
