@@ -77,7 +77,7 @@ runs:
         shell: sh
         run: |
           sudo apt update -y
-          sudo apt --no-cache add curl jq coreutils
+          sudo apt add curl jq coreutils
 
       - name: "give execution permission to script"
         shell: sh
